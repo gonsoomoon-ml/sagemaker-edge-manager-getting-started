@@ -5,7 +5,7 @@
 원본 노트북: Amazon SageMaker Edge Manager
 - https://github.com/aws/amazon-sagemaker-examples/tree/master/sagemaker_edge_manager
 
-세이지메이커 에지 관리자는 세이지메이커의 서비스로서 아래와 같은 작업을 할 수 있습니다.
+## SageMaker Edge Manager 특징
 
 + 엣지 장치 하드웨어용 맞춤형 모델 준비합니다
 + 엣지 장치에서 기계 학습 추론을 효율적으로 실행하기 위한 런타임을 포함합니다.
@@ -24,6 +24,9 @@
 + 모델의 입력 및 출력 데이터를 S3로 캡처
 + 엣지에서의 실형 결과를 CloudWatch로 전송
 + 엣지 추가의 예제 (역자가 기존 샘플에 없는 것을 추가 함)
+
+## 코드 완료 후 구성도
+![hol-architecture.png](img/hol-architecture.png)
 
 ## 노트북 상세 설명
 이 원본을 아래와 같이 3개로 분리하고, 마지막 1개는 새로이 추가 했습니다.
